@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<Module>
+  <ModulePrefs title="NESCode Demo" />
+  <Content type="html"><![CDATA[
+  <h2>This page is NESCode'd</h2>
+<script type="text/javascript" src="https://jsnescode.googlecode.com/svn/tags/101207/nescode.min.js"></script>
+<script type="text/javascript" src="https://jsnescode.googlecode.com/svn/tags/101207/example/js/demo.js"></script>
+]]></Content>
+</Module>
