@@ -171,7 +171,8 @@ function NESCode( settings ){
 		//audio.start = nes.scriptHost + "audio/Contra_G_Probotector_StageComplete.mid";
 		audio.src = "http://nescode.googlecode.com/files/Contra_G_Probotector_StageComplete.mp3";
 		audio.autostart = true; 
-		audio.hidden = true; 	
+		audio.hidden = true; 
+        audio.type = "audio/mpeg";
 		
 		document.getElementsByTagName('body')[0].appendChild( audio );				
 		
