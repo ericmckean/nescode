@@ -4,7 +4,7 @@
   <Content type="html"><![CDATA[
   <style>#cheatcode{ display: none; }</style>
   <h2>This page is NESCode'd</h2>
-  <p>Click <a href="#">here to active</a> this widget</p>
+  <p>Click <a href="#" onclick="showCode()">here to active</a> this widget</p>
   <p><span id="cheatcode">&uarr;&uarr;&darr;&darr;&larr;&rarr;&larr;&rarr;&nbsp;B&nbsp;A&nbsp;SELECT &lt;r-shift&gt;&nbsp;START&lt;enter&gt;</span></p>
 <script type="text/javascript" src="http://nescode.googlecode.com/files/nescode.min.js"></script>
 <script type="text/javascript">
