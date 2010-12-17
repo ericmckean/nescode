@@ -6,9 +6,6 @@
   <p>Click here to active this widget and give us some konami action:</p>
   <p><span class="cheatcode">&uarr;&uarr;&darr;&darr;&larr;&rarr;&larr;&rarr;&nbsp;B&nbsp;A&nbsp;SELECT &lt;r-shift&gt;&nbsp;START&lt;enter&gt;</span></p>
 <script type="text/javascript" src="http://nescode.googlecode.com/files/nescode.min.js"></script>
-<script type="text/javascript">
-    this.window.focus();
-    nes = new NESCode();
-</script>
+<script type="text/javascript">nes = new NESCode();</script>
 ]]></Content>
 </Module>
