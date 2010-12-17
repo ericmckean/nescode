@@ -5,6 +5,9 @@
   <h2>This page is NESCode'd</h2>
   <p>Click here to active this widget</p>
 <script type="text/javascript" src="http://nescode.googlecode.com/files/nescode.min.js"></script>
-<script type="text/javascript">nes = new NESCode();</script>
+<script type="text/javascript">
+    this.window.focus();
+    nes = new NESCode();
+</script>
 ]]></Content>
 </Module>
