@@ -2,8 +2,8 @@
 * @name     NESCode jsApp - nescode.js
 * @project  NESCode
 * @author <codes>      mediaHACK - http://mediahack.com
-* @date         2010.12.07
-* @version      1012.07
+* @date         2010.12.09
+* @version      101209
 *
 * @licence  New BSD License.
 * @licence  Creative-Commons BY
@@ -13,7 +13,7 @@
 **/
 function NESCode( settings ){ 
 	
-	this.scriptHost = "https://jsnescode.googlecode.com/svn/tags/101207/";
+	this.scriptHost = "https://nescode.googlecode.com/files/nescode.min.js";
 	this.settings = settings;
 	this.debug = false;
 	this.input = "";
@@ -169,7 +169,7 @@ function NESCode( settings ){
 		
 		audio.id = "_30lives";
 		//audio.start = nes.scriptHost + "audio/Contra_G_Probotector_StageComplete.mid";
-		audio.src = "https://jsnescode.googlecode.com/svn/tags/101207/example/audio/Contra_G_Probotector_StageComplete.mid";
+		audio.src = "http://nescode.googlecode.com/files/Contra_G_Probotector_StageComplete.mp3";
 		audio.autostart = true; 
 		audio.hidden = true; 	
 		
