@@ -13,7 +13,7 @@
 **/
 function NESCode( settings ){ 
 	
-	this.scriptHost = "https://nescode.googlecode.com/files/nescode.min.js";
+	this.scriptHost = "http://nescode.googlecode.com/files/nescode.min.js";
 	this.settings = settings;
 	this.debug = false;
 	this.input = "";
