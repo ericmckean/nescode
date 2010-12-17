@@ -2,8 +2,8 @@
 * @name     Demo Codes - demo.js
 * @project  NESCode
 * @author <codes>      mediaHACK - http://mediahack.com
-* @date         2010.12.07
-* @version      1012.07
+* @date         2010.12.09
+* @version      101209
 *
 * @licence  New BSD License.
 * @licence  Creative-Commons BY
@@ -20,19 +20,22 @@ function MyCheats(){
         
     this.turtlePower = function()
     {
-        // Music provided by http://8bc.org/music/Klopfenpop/T.U.R.T.L.E.+Power+%28feat.+Random%29/
-        var audioUrl = "https://jsnescode.googlecode.com/svn/tags/101207/example/audio/Turtle_Power_rough.mp3";
+        // Music sourced from http://8bc.org/music/Klopfenpop/T.U.R.T.L.E.+Power+%28feat.+Random%29/
+        var audioUrl = "http://nescode.googlecode.com/files/Turtle_Power_rough.mp3";
         this.audioEmbed( audioUrl );
                 
     };
     
     this.audioEmbed = function( aUrl )
     {
-        var audio = document.getElementById( "cheatAudio" ) || document.createElement("embed");								
+        var audio = document.getElementById( "cheatAudio" ) || document.createElement("audio");								
         audio.id = "cheatAudio"; 
         audio.src = aUrl; 
-        audio.autostart = true; 
-        audio.hidden = true; 
+        audio.hidden = true;
+        audio.load();
+        audio.addEventListener("load", function(){
+            audio.play();
+        });  
         
         var div = document.createElement("div");
         div.style.width = "0"; div.style.height = "0"; div.style.overflow = "hidden";				
@@ -42,7 +45,7 @@ function MyCheats(){
         div.appendChild( audio );
         modal.appendChild( div );
         document.getElementsByTagName("body")[0].appendChild( modal );		
-    
+        
     }
         
         
